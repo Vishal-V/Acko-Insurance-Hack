@@ -1,0 +1,12 @@
+name: Dashboard
+title: Dashboard
+username:
+account: vishal-v
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 617572
+bundleId: 1765190
+url: https://vishal-v.shinyapps.io/Dashboard/
+when: 1544876358.85375
+asMultiple: FALSE
+asStatic: FALSE
