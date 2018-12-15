@@ -1,3 +1,4 @@
+
 #' @param val_date
 #' 
 loss_run <- function(val_date) {

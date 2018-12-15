@@ -1,6 +1,3 @@
-# simulate transactions on insurance claims
-# transactions will include claim closures, payments and changes in case reserves
-# this is all completely made up and does not accurately resemble actual claims
 library(lubridate)
 library(dplyr)
 library(randomNames)
@@ -9,7 +6,7 @@ library(randomNames)
 n_claims <- 1000
 
 beg_date <- as.Date("2012-01-01")
-end_date <- as.Date("2018-11-10")
+end_date <- as.Date("2018-12-15")
 
 accident_range <- as.numeric(end_date - beg_date)
 
@@ -36,8 +33,6 @@ claims <- dplyr::data_frame(
                 transaction_date = report_date) %>%
   dplyr::arrange(accident_date)
 
-## simulate transaction dates
-# simulate number of transactions for each claim
 n_trans <- rnbinom(n_claims, 3, 0.25)
 # simulate lag to each transaction
 trans_lag <- lapply(n_trans, function(x) rnbinom(x, 7, 0.1))
