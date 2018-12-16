@@ -1,6 +1,8 @@
 <html>
   <head>
+    <title>Map</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}"> -->
     <script type="text/javascript">
       google.charts.load('current', {
         'packages':['geochart'],
@@ -26,9 +28,18 @@
         chart.draw(data, options);
       }
     </script>
-    <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/55121a27-a9f8-42a0-870f-5cf6f663ff0c"></iframe>
+ 
   </head>
   <body>
-    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+    
+      
+        <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/55121a27-a9f8-42a0-870f-5cf6f663ff0c"></iframe>
+      
+      <!-- <div class="row">
+        <div class="col-lg-9" style="margin-top: 80px;">
+          <div id="regions_div" style="width: 900px; height: 500px;"></div>
+        </div>
+      </div> -->
+ 
   </body>
 </html>
