@@ -1,4 +1,4 @@
-# INSURUPTOR  
+# INSURUPTOR by Team DevNinjas 
 ## H_Acko 1.0 Submission  
   
 Insuruptor is an integrated data analytics platform which solves multiple set of problems associated with the insurance industry to ensure maximization of growth with optimal profits.  
